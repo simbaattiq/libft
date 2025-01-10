@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_atoi.c                                          :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: mel-atti <marvin@42.fr>                    +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/01 16:21:38 by mel-atti          #+#    #+#             */
-/*   Updated: 2023/11/11 15:27:21 by mel-atti         ###   ########.fr       */
+/*                                                                            */
+/*   ft_atoi.c                                                                */
+/*                                                    		    			  */
+/*   Acts as the standard atoi function             				          */
+/*                                               				              */
+/*   Takes a constant string ptr as parrameter           		              */
+/*   return an integer value representing the string "str"                    */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,13 +41,4 @@ int	ft_atoi(const char *str)
 	else if (result > 9223372036854775807 && sign == -1)
 		return (0);
 	return (result * sign);
-}
-
-
-
-int main (){
-	char str[] = "-9223372036854775444999";
-
-	printf("%d\n", ft_atoi(str));
-	printf("%d\n", atoi(str));
 }

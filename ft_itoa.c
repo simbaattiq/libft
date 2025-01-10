@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_itoa.c                                          :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: mel-atti <marvin@42.fr>                    +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/03 14:33:42 by mel-atti          #+#    #+#             */
-/*   Updated: 2023/11/12 12:11:08 by mel-atti         ###   ########.fr       */
+/*                                                                            */
+/*   ft_itoa.c                                                                */
+/*                                                    		    			  */
+/*   Acts as the standard itoa function             				          */
+/*                                               				              */
+/*   Takes an integer value as parrameter                       		      */
+/*   returns a string representing the integer value                          */
 /*                                                                            */
 /* ************************************************************************** */
 
